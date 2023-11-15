@@ -17,42 +17,42 @@ const NavBar = () => {
                 <div className='w-full bg-white/10 h-[60px] backdrop-blur-sm rounded-full 
                 max-w-[460px] mx-auto px-5 flex justify-between items-center text-2xl text-white/50'>
 
-                    <Link to="#" className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center group relative'
+                    <Link to="#home" className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center group relative'
                         title="Home"
                     >
                         <HomeIcon />
                         <div className="overlay absolute  inset-0 rounded-full opacity-0 bg-white/50 transition-all group-hover:opacity-50"></div>
                     </Link>
 
-                    <Link to="#" className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center group relative'
+                    <Link to="#about-me" className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center group relative'
                         title="About Me"
                     >
                         <AboutMeIcon />
                         <div className="overlay absolute inset-0 rounded-full opacity-0 bg-white/50 transition-all group-hover:opacity-50"></div>
                     </Link>
 
-                    <Link to="#" className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center group relative'
+                    <Link to="#experience&educaciton" className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center group relative'
                         title="Experience & Education"
                     >
                         <KnowledgeIcon />
                         <div className="overlay absolute inset-0 rounded-full opacity-0 bg-white/50 transition-all group-hover:opacity-50"></div>
                     </Link>
 
-                    <Link to="#" className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center group relative'
+                    <Link to="#skills" className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center group relative'
                         title="Skills"
                     >
                         <SkillsIcon />
                         <div className="overlay absolute inset-0 rounded-full opacity-0 bg-white/50 transition-all group-hover:opacity-50"></div>
                     </Link>
 
-                    <Link to="#" className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center group relative'
+                    <Link to="#portfolio" className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center group relative'
                         title="Portfolio"
                     >
                         <PortfolioIcon />
                         <div className="overlay absolute inset-0 rounded-full opacity-0 bg-white/50 transition-all group-hover:opacity-50"></div>
                     </Link>
 
-                    <Link to="#" className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center group relative'
+                    <Link to="#contact" className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center group relative'
                         title="Contact Me"
                     >
                         <ContactIcon />

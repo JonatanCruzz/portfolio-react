@@ -15,7 +15,7 @@ const HeroContent = () => {
                 {/* Name */}
                 <motion.div
                     variants={slideInFromTop}
-                    className='Welcome-box py-[15px] px-[10px] border border-[#7042f88b] opacity-[0.9]'
+                    className='Welcome-box py-[15px] px-[8px] border border-[#7042f88b] opacity-[0.9]'
                 >
                     <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
                     <h1 className='Welcome-text text-[13px]'>Full Stack Developer Portfolio</h1>
@@ -24,11 +24,13 @@ const HeroContent = () => {
                 {/* Phrase */}
                 <motion.div
                     variants={slideInFromLeft(0.5)}
-                    className='flex flex-col gap-6 mt-6 text-6xl text-bold text-white max-w-[600px] w-auto h-auto'
+                    className='flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto'
                 >
-                    Providing
-                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to to-cyan-500'>the best</span>
-                    project experience
+                    <span>
+                        Providing
+                        <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to to-cyan-500'> the best </span>
+                        project experience
+                    </span>
                 </motion.div>
 
                 {/* Paragraph */}
@@ -41,19 +43,20 @@ const HeroContent = () => {
                 </motion.p>
 
                 {/* Button Learn More */}
-                <motion.a
+                <motion.button
                     variants={slideInFromLeft(1)}
                     className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
                 >
-                    Learn More!
-                </motion.a>
+                    Download CV
+                </motion.button>
 
                 {/* Image */}
                 <motion.div
                     variants={slideInFromRight(0.8)}
-                    className='absolute w-full h-full flex justify-center items-center ml-[18rem]'
+                    className='absolute w-full h-full flex justify-end items-center'
+                    style={{ paddingRight: '15rem' }}
                 >
-                    <img src="/cartoonBoy.png" alt="cartoon boy" width={650} height={650} />
+                    <img src="/others/animeBoyv2.png" alt="cartoon boy" width={450} height={450} />
                 </motion.div>
             </div>
         </motion.div>

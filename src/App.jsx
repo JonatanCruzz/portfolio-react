@@ -1,17 +1,22 @@
 import Hero from "./components/Hero/Hero"
+import StarsCanvas from "./components/Hero/StarBackground"
 import NavBar from "./components/Navbar/NavBar"
+import Skills from "./components/Skills/Skills"
 
 function App() {
 
   return (
-    <main className="bg-[#030014] h-screen overflow-y-scroll overflow-x-hidden">
+    <main className="bg-[#030014] overflow-hidden ">
       <NavBar />
 
-      <div className="flex flex-col gap-20 h-[850px]">
+      <StarsCanvas />
+
+      <div className="flex flex-col gap-20 h-[750px]">
         <Hero />
       </div>
+      <Skills />
 
-    </main>
+    </main >
   )
 }
 
